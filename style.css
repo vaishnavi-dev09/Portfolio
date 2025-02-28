@@ -1,0 +1,100 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body and Font Styles */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color:black;
+  }
+  
+  /* Header Section */
+  .header {
+    background-color:#218838;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .header nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .header nav ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  .header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .header nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Main Content Section */
+  .main-content {
+    padding: 30px;
+    text-align: center;
+  }
+  
+  .main-content h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  .main-content p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+  }
+  
+  .button {
+    padding: 15px 30px;
+    font-size: 1.2em;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .button:hover {
+    background-color: #218838;
+  }
+  /* Features Section */
+  .features {
+    margin-top: 40px;
+  }
+  
+  .features h3 {
+    font-size: 2em;
+    margin-bottom: 15px;
+  }
+  
+  .features ul {
+    list-style: none;
+  }
+
+  
+  .features ul li {
+    font-size: 1.1em;
+    margin: 10px 0;
+  }
+  
+  /* Footer Section */
+  .footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }
