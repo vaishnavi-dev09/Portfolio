@@ -11,33 +11,30 @@
     <!-- Header Section -->
   <header class="header">
     <h1>My first webpage</h1>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
   </header>
   <!-- Main Content Section -->
   <main class="main-content">
     <section class="intro">
       <p>This is a simple WEBPAGE </p>
-      <button class="button">Get Started</button>
-    </section>
-    <section class="features">
-      <h3>Features</h3>
-      <ul>
-        <li>Easy Navigation</li>
-        <li>Responsive Design</li>
-        <li>Fast Loading</li>
-      </ul>
-    </section>
-  </main>
-  <!-- Footer Section -->
-  <footer class="footer">
-    <p>&copy; 2025 Simple Web Page. All Rights Reserved.</p>
-  </footer>
+         </section>
+    <button class="menu-button" 
+        onclick="toggleCurtain()">
+        &#9776; Menu
+    </button>
 
+    <div class="curtain-menu" id="curtainMenu">
+        
+        
+        <a href="index.html" onclick="toggleCurtain()">Home</a>
+        <a href="about.html" onclick="toggleCurtain()">About</a>
+        <a href="contact.html" onclick="toggleCurtain()">Contact</a>
+    </div>
+  </main>
+  <script>
+    function toggleCurtain() {
+        var curtainMenu = document.getElementById("curtainMenu");
+        curtainMenu.classList.toggle("menu-open");
+    }
+</script>
 </body>
 </html>
